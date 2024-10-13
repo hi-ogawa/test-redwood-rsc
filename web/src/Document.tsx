@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Css, Meta } from '@redwoodjs/web/htmlTags'
+// import { Css, Meta } from '@redwoodjs/web/htmlTags'
 
 import type { TagDescriptor } from '@redwoodjs/web/htmlTags'
 
@@ -17,8 +17,8 @@ export const Document: React.FC<DocumentProps> = ({ children, css, meta }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <Css css={css} />
-        <Meta tags={meta} />
+        {/* <Css css={css} />
+        <Meta tags={meta} /> */}
       </head>
       <body>
         <div id="redwood-app">{children}</div>

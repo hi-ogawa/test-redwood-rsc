@@ -6,8 +6,8 @@ import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 import { AuthProvider, useAuth } from './auth'
 import FatalErrorPage from './pages/FatalErrorPage/FatalErrorPage'
 
-import './index.css'
-import './scaffold.css'
+// import './index.css'
+// import './scaffold.css'
 
 interface AppProps {
   children?: ReactNode
